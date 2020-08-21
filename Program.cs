@@ -10,7 +10,7 @@ namespace aztablestorage
         {
             Console.WriteLine("Table Storage sample!");
 
-            var connectionString = "DefaultEndpointsProtocol=https;AccountName=brodmantablestorage;AccountKey=h8v0SWJ22DgqWglEzpQerdoNpEfuX341b5LvZvG/RWP1kiuAkZmKBMv3eVOThp4+ZuDrJMWAdZ73YwJTSxspnw==;EndpointSuffix=core.windows.net";
+            var connectionString = "<insert your storage account connection string here>";
             var tableName = "myFirstTable";
 
             var account = CloudStorageAccount.Parse(connectionString);
